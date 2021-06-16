@@ -1,0 +1,6 @@
+verilog work "pc_reg.v"
+verilog work "multiplexer_16.v"
+verilog work "instruction_memory.v"
+verilog work "cache.v"
+verilog work "adderaddress.v"
+verilog work "fetch.v"

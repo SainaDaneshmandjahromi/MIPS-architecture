@@ -1,0 +1,284 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Multiplier.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Multiplier.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Multiplier"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : Multiplier
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\SrForMultiplier.v" into library work
+Parsing module <SrForMultiplier>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\CuForMultiPlier.v" into library work
+Parsing module <CuForMultiPlier>.
+WARNING:HDLCompiler:327 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\CuForMultiPlier.v" Line 39: Concatenation with unsized literal; will interpret as 32 bits
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Add_SubForMultiplier.v" into library work
+Parsing module <Add_SubForMultiplier>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" into library work
+Parsing module <Multiplier>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <Multiplier>.
+WARNING:HDLCompiler:327 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\CuForMultiPlier.v" Line 39: Concatenation with unsized literal; will interpret as 32 bits
+
+Elaborating module <CuForMultiPlier>.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\CuForMultiPlier.v" Line 39: Result of 49-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" Line 37: Assignment to validityWire ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" Line 38: Size mismatch in connection of port <AddorSub>. Formal port size is 1-bit while actual signal size is 2-bit.
+
+Elaborating module <SrForMultiplier>.
+
+Elaborating module <Add_SubForMultiplier>.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" Line 51: Assignment to resultWire ignored, since the identifier is never used
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" line 34. All outputs of instance <mycuformultiplier> of block <CuForMultiPlier> are unconnected in block <Multiplier>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" line 41. All outputs of instance <mysrformultiplier> of block <SrForMultiplier> are unconnected in block <Multiplier>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" line 47. All outputs of instance <myadd_subformultiplier> of block <Add_SubForMultiplier> are unconnected in block <Multiplier>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Multiplier>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v".
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" line 34: Output port <validity> of the instance <mycuformultiplier> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_HW6\Project_9632644\Multiplier.v" line 47: Output port <r> of the instance <myadd_subformultiplier> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Multiplier> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Multiplier> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Multiplier, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Multiplier.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          66
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 27.00 secs
+Total CPU time to Xst completion: 26.79 secs
+ 
+--> 
+
+Total memory usage is 5000704 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

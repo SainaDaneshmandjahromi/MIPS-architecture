@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+SrForMultiplier instance_name (
+    .clk(clk), 
+    .startbit(startbit), 
+    .b(b), 
+    .shiftedb(shiftedb)
+    );
+
+

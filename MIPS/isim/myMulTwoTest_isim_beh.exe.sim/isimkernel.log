@@ -1,0 +1,28 @@
+Command line:
+   myMulTwoTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  53300
+
+Mon Feb 01 18:32:40 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5164.2 Meg
+
+ Total Signals          : 37
+ Total Nets             : 136
+ Total Signal Drivers   : 17
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 27
+ Total Traceable Variables  : 33
+ Total Scalar Nets and Variables : 347
+
+ Total Simulation Time: 0.375 sec
+
+ Current Memory Usage: 5006.92 Meg
+
+Mon Feb 01 18:34:51 2021
+

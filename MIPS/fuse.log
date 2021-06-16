@@ -1,0 +1,77 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest_isim_beh.exe" -prj "C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest_beh.prj" "work.MIPSTest" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/SrForMultiplier.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/SrForDivider.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/CuForMultiPlier.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/CuForDivider.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/Add_SubForMultiplier.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/Add_SubForDivider.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/Multiplier.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/Divider.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/signExtend.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/registerFile.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/pc_reg.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/multiplexer_16.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/instruction_memory.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/cache.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/aluControl.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/alu.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/adderaddress.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/regIFID.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/regIDEX.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/produceClock.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/myregMEMWB.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/myregEXMEM.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/myDataMem.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/myAnd.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/mux3.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/fetch.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/Execute.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/decode.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/controlUnit.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/MIPS.v" into library work
+Analyzing Verilog file "C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module produceClock
+Compiling module myAnd
+Compiling module pc_reg
+Compiling module multiplexer_16
+Compiling module adderaddress
+Compiling module instruction_memory
+Compiling module cache
+Compiling module fetch
+Compiling module regIFID
+Compiling module registerFile
+Compiling module signExtend
+Compiling module decode
+Compiling module controlUnit
+Compiling module regIDEX
+Compiling module CuForMultiPlier
+Compiling module SrForMultiplier
+Compiling module Add_SubForMultiplier
+Compiling module Multiplier
+Compiling module SrForDivider
+Compiling module CuForDivider
+Compiling module Add_SubForDivider
+Compiling module Divider
+Compiling module alu
+Compiling module aluControl
+Compiling module Execute
+Compiling module mux3
+Compiling module myregEXMEM
+Compiling module myDataMem
+Compiling module myregMEMWB
+Compiling module MIPS
+Compiling module MIPSTest
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 32 Verilog Units
+Built simulation executable C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest_isim_beh.exe
+Fuse Memory Usage: 29476 KB
+Fuse CPU Usage: 687 ms

@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Project_9632644" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Divider D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|Divider.v</ClosedNode>
+         <ClosedNode>/Execute D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|Execute.v</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|saina|Desktop|Project_9632644 - Reset|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|saina|Desktop|Project_9632644 - Reset|MIPS.v/myExecute - Execute</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|saina|Desktop|Project_9632644 - Reset|MIPS.v/myExecute - Execute/myalu - alu/myMul - Multiplier</ClosedNode>
+         <ClosedNode>/MIPS C:|Users|saina|Desktop|Project_9632644 - Reset|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MIPS.v/myExecute - Execute/myalu - alu/instance_name - Multiplier</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MIPS.v/myExecute - Execute/myalu - alu/myDiv - Divider</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|MIPS.v/myExecute - Execute/myalu - alu/myDiv - Divider</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|MIPS.v/myExecute - Execute/myalu - alu/myMul - Multiplier</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPS.v/myExecute - Execute</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPS.v/myExecute - Execute/myalu - alu/myDiv - Divider</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPS.v/myExecute - Execute/myalu - alu/myMul - Multiplier</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|Folder|Project_9632644|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|Folder|Project_9632644|MIPS.v/myExecute - Execute</ClosedNode>
+         <ClosedNode>/Multiplier D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|Multiplier.v</ClosedNode>
+         <ClosedNode>/decode D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|decode.v</ClosedNode>
+         <ClosedNode>/fetch D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|fetch.v</ClosedNode>
+         <ClosedNode>/fetch D:|Lessons|ArchitectureLab|HW3|Project_9632644|fetch.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>myproduceClk - produceClock (C:/Users/saina/Desktop/Project_9632644 - Reset/produceClock.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000159000000020000000000000000000000000200000064ffffffff000000810000000300000002000001590000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>myproduceClk - produceClock (C:/Users/saina/Desktop/Project_9632644 - Reset/produceClock.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>registerFile.v</SelectedItem>
+         <SelectedItem>registerFileTest.v</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >26</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000130000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>registerFileTest.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000f8000000010001000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000100000000010000000100000000000000000000000064ffffffff000000810000000000000001000001000000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/AndTest C:|Users|saina|Desktop|Project_9632644 - Reset|AndTest.v</ClosedNode>
+         <ClosedNode>/AndTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|AndTest.v</ClosedNode>
+         <ClosedNode>/AndTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|AndTest.v</ClosedNode>
+         <ClosedNode>/AndTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|AndTest.v</ClosedNode>
+         <ClosedNode>/AndTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|AndTest.v</ClosedNode>
+         <ClosedNode>/DivTest C:|Users|saina|Desktop|Project_9632644 - Reset|DivTest.v</ClosedNode>
+         <ClosedNode>/DivTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|DivTest.v</ClosedNode>
+         <ClosedNode>/DivTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|DivTest.v</ClosedNode>
+         <ClosedNode>/ExecuteTest C:|Users|saina|Desktop|Project_9632644 - Reset|ExecuteTest.v</ClosedNode>
+         <ClosedNode>/ExecuteTest C:|Users|saina|Desktop|Project_9632644 - Reset|ExecuteTest.v/uut - Execute/myalu - alu/myDiv - Divider</ClosedNode>
+         <ClosedNode>/ExecuteTest C:|Users|saina|Desktop|Project_9632644 - Reset|ExecuteTest.v/uut - Execute/myalu - alu/myMul - Multiplier</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|ExecuteTest.v</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|ExecuteTest.v/uut - Execute/myalu - alu/myDiv - Divider</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|ExecuteTest.v/uut - Execute/myalu - alu</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|ExecuteTest.v/uut - Execute/myalu - alu/myDiv - Divider</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|ExecuteTest.v</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|ExecuteTest.v/uut - Execute/myalu - alu</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|ExecuteTest.v/uut - Execute/myalu - alu/myMul - Multiplier</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|ExecuteTest.v</ClosedNode>
+         <ClosedNode>/ExecuteTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|ExecuteTest.v/uut - Execute</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|MIPS.v</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|MIPS.v/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|MIPS.v/myExecute - Execute</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|MIPS.v/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPS D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MIPS.v</ClosedNode>
+         <ClosedNode>/MIPSTest C:|Users|saina|Desktop|Project_9632644 - Reset|MIPSTest.v/uut - MIPS/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPSTest C:|Users|saina|Desktop|Project_9632644 - Reset|MIPSTest.v/uut - MIPS/myExecute - Execute</ClosedNode>
+         <ClosedNode>/MIPSTest C:|Users|saina|Desktop|Project_9632644 - Reset|MIPSTest.v/uut - MIPS/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MIPSTest.v</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|MIPSTest.v</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPSTest.v/uut - MIPS/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPSTest.v/uut - MIPS/myExecute - Execute/myalu - alu</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MIPSTest.v/uut - MIPS/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|MIPSTest.v</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|MIPSTest.v/uut - MIPS/myDecode - decode</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|MIPSTest.v/uut - MIPS/myExecute - Execute</ClosedNode>
+         <ClosedNode>/MIPSTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|MIPSTest.v/uut - MIPS/myFetch - fetch</ClosedNode>
+         <ClosedNode>/MultiplyTest C:|Users|saina|Desktop|Project_9632644 - Reset|MultiplyTest.v</ClosedNode>
+         <ClosedNode>/MultiplyTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|MultiplyTest.v</ClosedNode>
+         <ClosedNode>/MultiplyTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|MultiplyTest.v</ClosedNode>
+         <ClosedNode>/MultiplyTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MultiplyTest.v</ClosedNode>
+         <ClosedNode>/MultiplyTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|MultiplyTest.v/uut - Multiplier</ClosedNode>
+         <ClosedNode>/PC_registerTest D:|Lessons|ArchitectureLab|Project_9632644|PC_registerTest.v</ClosedNode>
+         <ClosedNode>/adderTest C:|Users|saina|Desktop|Project_9632644 - Reset|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|9632644_HW1|Project_9632644|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|adderTest.v</ClosedNode>
+         <ClosedNode>/adderTest D:|Lessons|ArchitectureLab|HW3|Project_9632644|adderTest.v</ClosedNode>
+         <ClosedNode>/aluControlTest C:|Users|saina|Desktop|Project_9632644 - Reset|aluControlTest.v</ClosedNode>
+         <ClosedNode>/aluControlTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|aluControlTest.v</ClosedNode>
+         <ClosedNode>/aluControlTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|aluControlTest.v</ClosedNode>
+         <ClosedNode>/aluControlTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|aluControlTest.v</ClosedNode>
+         <ClosedNode>/aluControlTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|aluControlTest.v</ClosedNode>
+         <ClosedNode>/aluControlTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|aluControlTest.v</ClosedNode>
+         <ClosedNode>/aluTest C:|Users|saina|Desktop|Project_9632644 - Reset|aluTest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|aluTest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|aluTest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|aluTest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|aluTest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|aluTest.v</ClosedNode>
+         <ClosedNode>/aluTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|aluTest.v</ClosedNode>
+         <ClosedNode>/controlUnitTest C:|Users|saina|Desktop|Project_9632644 - Reset|controlUnitTest.v</ClosedNode>
+         <ClosedNode>/controlUnitTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|controlUnitTest.v</ClosedNode>
+         <ClosedNode>/controlUnitTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|controlUnitTest.v</ClosedNode>
+         <ClosedNode>/controlUnitTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|controlUnitTest.v</ClosedNode>
+         <ClosedNode>/controlUnitTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|controlUnitTest.v</ClosedNode>
+         <ClosedNode>/controlUnitTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|controlUnitTest.v</ClosedNode>
+         <ClosedNode>/decode D:|Lessons|ArchitectureLab|HW3|Project_9632644|decode.v</ClosedNode>
+         <ClosedNode>/decodeTest C:|Users|saina|Desktop|Project_9632644 - Reset|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|decodeTest.v</ClosedNode>
+         <ClosedNode>/decodeTest D:|Lessons|ArchitectureLab|HW3|Project_9632644|decodeTest.v</ClosedNode>
+         <ClosedNode>/dividerTest C:|Users|saina|Desktop|Project_9632644 - Reset|dividerTest.v</ClosedNode>
+         <ClosedNode>/dividerTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|dividerTest.v</ClosedNode>
+         <ClosedNode>/dividerTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|dividerTest.v</ClosedNode>
+         <ClosedNode>/dividerTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|dividerTest.v</ClosedNode>
+         <ClosedNode>/fetchTest C:|Users|saina|Desktop|Project_9632644 - Reset|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|fetchTest.v</ClosedNode>
+         <ClosedNode>/fetchTest D:|Lessons|ArchitectureLab|HW3|Project_9632644|fetchTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest C:|Users|saina|Desktop|9632644_Hw1|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest C:|Users|saina|Desktop|Project_9632644 - Reset|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|9632644_HW1|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|HW3|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test C:|Users|saina|Desktop|9632644_Hw1|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test C:|Users|saina|Desktop|Project_9632644 - Reset|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|9632644_HW1|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|9632644_HW5|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|Folder|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|HW3|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/myDivTwoTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|myDivTwoTest.v</ClosedNode>
+         <ClosedNode>/myMulTwoTest C:|Users|saina|Desktop|Project_9632644 - Reset|myMulTwoTest.v</ClosedNode>
+         <ClosedNode>/myMulTwoTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644 - Reset|myMulTwoTest.v</ClosedNode>
+         <ClosedNode>/myMulTwoTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|myMulTwoTest.v</ClosedNode>
+         <ClosedNode>/pcTest C:|Users|saina|Desktop|Project_9632644 - Reset|pcTest.v</ClosedNode>
+         <ClosedNode>/pcTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|pcTest.v</ClosedNode>
+         <ClosedNode>/pcTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|pcTest.v</ClosedNode>
+         <ClosedNode>/pcTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|pcTest.v</ClosedNode>
+         <ClosedNode>/pcTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|pcTest.v</ClosedNode>
+         <ClosedNode>/pcTest D:|Lessons|ArchitectureLab|HW3|Project_9632644|pcTest.v</ClosedNode>
+         <ClosedNode>/pc_regTest C:|Users|saina|Desktop|9632644_Hw1|Project_9632644|pc_regTest.v</ClosedNode>
+         <ClosedNode>/pc_regTest D:|Lessons|ArchitectureLab|Project_9632644|pc_regTest.v</ClosedNode>
+         <ClosedNode>/regIDEXTest C:|Users|saina|Desktop|Project_9632644 - Reset|regIDEXTest.v</ClosedNode>
+         <ClosedNode>/regIDEXTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|regIDEXTest.v</ClosedNode>
+         <ClosedNode>/regIDEXTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|regIDEXTest.v</ClosedNode>
+         <ClosedNode>/regIDEXTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|regIDEXTest.v</ClosedNode>
+         <ClosedNode>/registerFileTest C:|Users|saina|Desktop|Project_9632644 - Reset|registerFileTest.v</ClosedNode>
+         <ClosedNode>/registerFileTest D:|Lessons|ArchitectureLab|9632644_HW4|Project_9632644|registerFileTest.v</ClosedNode>
+         <ClosedNode>/registerFileTest D:|Lessons|ArchitectureLab|9632644_HW6|Project_9632644|registerFileTest.v</ClosedNode>
+         <ClosedNode>/registerFileTest D:|Lessons|ArchitectureLab|9632644_Project|9632644_HW6|Project_9632644|registerFileTest.v</ClosedNode>
+         <ClosedNode>/registerFileTest D:|Lessons|ArchitectureLab|Folder|Project_9632644|registerFileTest.v</ClosedNode>
+         <ClosedNode>/registerFileTest D:|Lessons|ArchitectureLab|HW3|Project_9632644|registerFileTest.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>MIPSTest (C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000016d000000020000000000000000000000000200000064ffffffff0000008100000003000000020000016d0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>MIPSTest (C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000111000000010000000100000000000000000000000064ffffffff000000810000000000000001000001110000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001110000007001000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+   <ItemView engineview="PostTransSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/instruction_memoryTest D:|Lessons|ArchitectureLab|Project_9632644|instruction_memoryTest.v</ClosedNode>
+         <ClosedNode>/multiplexer_16Test D:|Lessons|ArchitectureLab|Project_9632644|multiplexer_16Test.v</ClosedNode>
+         <ClosedNode>/pc_regTest D:|Lessons|ArchitectureLab|Project_9632644|pc_regTest.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>pc_regTest (D:/Lessons/ArchitectureLab/Project_9632644/pc_regTest.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000156000000020000000000000000000000000200000064ffffffff000000810000000300000002000001560000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>pc_regTest (D:/Lessons/ArchitectureLab/Project_9632644/pc_regTest.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="PostTransSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

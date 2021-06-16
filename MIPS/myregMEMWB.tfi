@@ -1,0 +1,21 @@
+
+
+
+// Instantiate the module
+myregMEMWB instance_name (
+    .clk(clk), 
+    .hit(hit), 
+    .regWriteIn(regWriteIn), 
+    .memtoRegIn(memtoRegIn), 
+    .readDataIn(readDataIn), 
+    .aluResultIn(aluResultIn), 
+    .writeRegIn(writeRegIn), 
+    .regWriteOut(regWriteOut), 
+    .memtoRegOut(memtoRegOut), 
+    .readDataOut(readDataOut), 
+    .aluResultOut(aluResultOut), 
+    .writeRegOut(writeRegOut), 
+    .hitOut(hitOut)
+    );
+
+

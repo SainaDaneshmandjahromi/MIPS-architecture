@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+myAnd instance_name (
+    .Branch(Branch), 
+    .zero(zero), 
+    .PcSrc(PcSrc)
+    );
+
+

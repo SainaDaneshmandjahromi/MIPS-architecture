@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW4/Project_9632644/Execute.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW4/Project_9632644//Execute.v -module Execute -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

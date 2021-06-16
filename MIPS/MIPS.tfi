@@ -1,0 +1,9 @@
+
+
+
+// Instantiate the module
+MIPS instance_name (
+    .clk(clk)
+    );
+
+

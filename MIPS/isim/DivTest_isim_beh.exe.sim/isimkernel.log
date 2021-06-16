@@ -1,0 +1,28 @@
+Command line:
+   DivTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  53328
+
+Mon Feb 01 18:39:56 2021
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5164.24 Meg
+
+ Total Signals          : 47
+ Total Nets             : 207
+ Total Signal Drivers   : 21
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 31
+ Total Traceable Variables  : 36
+ Total Scalar Nets and Variables : 455
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 5006.95 Meg
+
+Mon Feb 01 18:41:26 2021
+

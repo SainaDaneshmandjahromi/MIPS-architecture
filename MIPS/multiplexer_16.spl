@@ -1,0 +1,10 @@
+[Inputs]
+select
+=myIn1[15:0]=
+=myIn2[15:0]=
+[Outputs]
+=myOut[15:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel multiplexer_16
+

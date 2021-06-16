@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest_isim_beh.exe" -prj "C:/Users/saina/Desktop/Project_9632644 - Reset/MIPSTest_beh.prj" "work.MIPSTest" "work.glbl" 

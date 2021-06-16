@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+CuForDivider instance_name (
+    .clk(clk), 
+    .rsubd(rsubd), 
+    .dividend(dividend), 
+    .r(r), 
+    .operation(operation), 
+    .srOraddsub(srOraddsub), 
+    .iteration(iteration), 
+    .validity(validity), 
+    .srstart(srstart), 
+    .addsubstart(addsubstart)
+    );
+
+

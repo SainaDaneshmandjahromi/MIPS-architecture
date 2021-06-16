@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/fetch.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/fetch.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/fetch.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/fetch.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/fetch.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/fetch.syr" 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW4/Project_9632644/fetch.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW4/Project_9632644//fetch.v -module fetch -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

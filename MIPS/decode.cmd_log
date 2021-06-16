@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.xst" -ofn "D:/Lessons/ArchitectureLab/HW3/Project_9632644/decode.syr" 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW4/Project_9632644/decode.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW4/Project_9632644//decode.v -module decode -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/decode.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644//decode.v -module decode -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/decode.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644//decode.v -module decode -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/decode.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644//decode.v -module decode -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

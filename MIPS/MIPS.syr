@@ -1,0 +1,601 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: MIPS.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MIPS.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MIPS"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : MIPS
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForMultiplier.v" into library work
+Parsing module <SrForMultiplier>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForDivider.v" into library work
+Parsing module <SrForDivider>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForMultiPlier.v" into library work
+Parsing module <CuForMultiPlier>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" into library work
+Parsing module <CuForDivider>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForMultiplier.v" into library work
+Parsing module <Add_SubForMultiplier>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForDivider.v" into library work
+Parsing module <Add_SubForDivider>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Multiplier.v" into library work
+Parsing module <Multiplier>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Divider.v" into library work
+Parsing module <Divider>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\signExtend.v" into library work
+Parsing module <signExtend>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\registerFile.v" into library work
+Parsing module <registerFile>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\pc_reg.v" into library work
+Parsing module <pc_reg>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\multiplexer_16.v" into library work
+Parsing module <multiplexer_16>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\instruction_memory.v" into library work
+Parsing module <instruction_memory>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\cache.v" into library work
+Parsing module <cache>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\aluControl.v" into library work
+Parsing module <aluControl>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\adderaddress.v" into library work
+Parsing module <adderaddress>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\regIFID.v" into library work
+Parsing module <regIFID>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\regIDEX.v" into library work
+Parsing module <regIDEX>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\produceClock.v" into library work
+Parsing module <produceClock>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\myregMEMWB.v" into library work
+Parsing module <myregMEMWB>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\myregEXMEM.v" into library work
+Parsing module <myregEXMEM>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\myDataMem.v" into library work
+Parsing module <myDataMem>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\myAnd.v" into library work
+Parsing module <myAnd>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\mux3.v" into library work
+Parsing module <mux3>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\fetch.v" into library work
+Parsing module <fetch>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Execute.v" into library work
+Parsing module <Execute>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\decode.v" into library work
+Parsing module <decode>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\controlUnit.v" into library work
+Parsing module <controlUnit>.
+Analyzing Verilog file "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" into library work
+Parsing module <MIPS>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <MIPS>.
+
+Elaborating module <produceClock>.
+WARNING:HDLCompiler:1499 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\produceClock.v" Line 21: Empty module <produceClock> remains a black box.
+
+Elaborating module <myAnd>.
+
+Elaborating module <fetch>.
+
+Elaborating module <pc_reg>.
+
+Elaborating module <multiplexer_16>.
+
+Elaborating module <adderaddress>.
+
+Elaborating module <instruction_memory>.
+Reading initialization file \"MyMemory.txt\".
+WARNING:HDLCompiler:1670 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\instruction_memory.v" Line 28: Signal <mem> in initial block is partially initialized.
+
+Elaborating module <cache>.
+WARNING:HDLCompiler:91 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\cache.v" Line 50: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+
+Elaborating module <regIFID>.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 145: Assignment to hitOutstage12 ignored, since the identifier is never used
+
+Elaborating module <decode>.
+
+Elaborating module <registerFile>.
+"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\registerFile.v" Line 61. $display You can't write in register zero
+
+Elaborating module <signExtend>.
+
+Elaborating module <controlUnit>.
+
+Elaborating module <regIDEX>.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 201: Assignment to opCodestage23 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 207: Assignment to hitOutstage23 ignored, since the identifier is never used
+
+Elaborating module <Execute>.
+
+Elaborating module <alu>.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 35: Result of 32-bit expression is truncated to fit in 16-bit target.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 47: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <Multiplier>.
+
+Elaborating module <CuForMultiPlier>.
+
+Elaborating module <SrForMultiplier>.
+
+Elaborating module <Add_SubForMultiplier>.
+WARNING:HDLCompiler:189 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 53: Size mismatch in connection of port <r>. Formal port size is 32-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 54: Assignment to validity ignored, since the identifier is never used
+
+Elaborating module <Divider>.
+
+Elaborating module <SrForDivider>.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForDivider.v" Line 43: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForDivider.v" Line 47: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <CuForDivider>.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" Line 47: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" Line 52: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" Line 71: Result of 7-bit expression is truncated to fit in 6-bit target.
+
+Elaborating module <Add_SubForDivider>.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForDivider.v" Line 42: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForDivider.v" Line 46: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 61: Assignment to validity ignored, since the identifier is never used
+
+Elaborating module <aluControl>.
+
+Elaborating module <mux3>.
+
+Elaborating module <myregEXMEM>.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 251: Assignment to hitOutstage34 ignored, since the identifier is never used
+
+Elaborating module <myDataMem>.
+WARNING:HDLCompiler:413 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\myDataMem.v" Line 39: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <myregMEMWB>.
+WARNING:HDLCompiler:1127 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 276: Assignment to hitOutstage45 ignored, since the identifier is never used
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 117. All outputs of instance <myproduceClk> of block <produceClock> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 122. All outputs of instance <And> of block <myAnd> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 129. All outputs of instance <myFetch> of block <fetch> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 138. All outputs of instance <myregIFID> of block <regIFID> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 148. All outputs of instance <myDecode> of block <decode> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 162. All outputs of instance <myControlUnit> of block <controlUnit> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 174. All outputs of instance <myregIDEX> of block <regIDEX> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 210. All outputs of instance <myExecute> of block <Execute> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 221. All outputs of instance <myMux> of block <mux3> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 228. All outputs of instance <regEXMEM> of block <myregEXMEM> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 254. All outputs of instance <DataMem> of block <myDataMem> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 263. All outputs of instance <regMEMWB> of block <myregMEMWB> are unconnected in block <MIPS>. Underlying logic will be removed.
+WARNING:Xst:2972 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 279. All outputs of instance <mymuxthird> of block <multiplexer_16> are unconnected in block <MIPS>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MIPS>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v".
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 138: Output port <hitOut> of the instance <myregIFID> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 174: Output port <opCodeOut> of the instance <myregIDEX> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 174: Output port <hitOut> of the instance <myregIDEX> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 228: Output port <hitOut> of the instance <regEXMEM> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" line 263: Output port <hitOut> of the instance <regMEMWB> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <MIPS> synthesized.
+
+Synthesizing Unit <pc_reg>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\pc_reg.v".
+    Found 1-bit register for signal <currentInst<15>>.
+    Found 1-bit register for signal <currentInst<14>>.
+    Found 1-bit register for signal <currentInst<13>>.
+    Found 1-bit register for signal <currentInst<12>>.
+    Found 1-bit register for signal <currentInst<11>>.
+    Found 1-bit register for signal <currentInst<10>>.
+    Found 1-bit register for signal <currentInst<9>>.
+    Found 1-bit register for signal <currentInst<8>>.
+    Found 1-bit register for signal <currentInst<7>>.
+    Found 1-bit register for signal <currentInst<6>>.
+    Found 1-bit register for signal <currentInst<5>>.
+    Found 1-bit register for signal <currentInst<4>>.
+    Found 1-bit register for signal <currentInst<3>>.
+    Found 1-bit register for signal <currentInst<2>>.
+    Found 1-bit register for signal <currentInst<1>>.
+    Found 1-bit register for signal <currentInst<0>>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <pc_reg> synthesized.
+
+Synthesizing Unit <multiplexer_16>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\multiplexer_16.v".
+    Summary:
+	no macro.
+Unit <multiplexer_16> synthesized.
+
+Synthesizing Unit <adderaddress>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\adderaddress.v".
+    Summary:
+	no macro.
+Unit <adderaddress> synthesized.
+
+Synthesizing Unit <instruction_memory>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\instruction_memory.v".
+WARNING:Xst:647 - Input <address<2:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2999 - Signal 'mem', unconnected in block 'instruction_memory', is tied to its initial value.
+    Found 128x64-bit single-port Read Only RAM <Mram_mem> for signal <mem>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <instruction_memory> synthesized.
+
+Synthesizing Unit <cache>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\cache.v".
+WARNING:Xst:647 - Input <address<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <hit>.
+    Found 1-bit register for signal <instruction<15>>.
+    Found 1-bit register for signal <instruction<14>>.
+    Found 1-bit register for signal <instruction<13>>.
+    Found 1-bit register for signal <instruction<12>>.
+    Found 1-bit register for signal <instruction<11>>.
+    Found 1-bit register for signal <instruction<10>>.
+    Found 1-bit register for signal <instruction<9>>.
+    Found 1-bit register for signal <instruction<8>>.
+    Found 1-bit register for signal <instruction<7>>.
+    Found 1-bit register for signal <instruction<6>>.
+    Found 1-bit register for signal <instruction<5>>.
+    Found 1-bit register for signal <instruction<4>>.
+    Found 1-bit register for signal <instruction<3>>.
+    Found 1-bit register for signal <instruction<2>>.
+    Found 1-bit register for signal <instruction<1>>.
+    Found 1-bit register for signal <instruction<0>>.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+Unit <cache> synthesized.
+
+Synthesizing Unit <registerFile>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\registerFile.v".
+    Summary:
+	no macro.
+Unit <registerFile> synthesized.
+
+Synthesizing Unit <signExtend>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\signExtend.v".
+    Summary:
+	no macro.
+Unit <signExtend> synthesized.
+
+Synthesizing Unit <alu>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v".
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" line 49: Output port <validity> of the instance <myMul> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" line 57: Output port <validity> of the instance <myDiv> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <alu> synthesized.
+
+Synthesizing Unit <Multiplier>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Multiplier.v".
+    Summary:
+	no macro.
+Unit <Multiplier> synthesized.
+
+Synthesizing Unit <CuForMultiPlier>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForMultiPlier.v".
+    Found 2-bit register for signal <AddorSub>.
+    Found 5-bit register for signal <index>.
+    Found 1-bit register for signal <validity>.
+    Found 5-bit adder for signal <index[4]_GND_688_o_add_9_OUT> created at line 52.
+    Found 1-bit 17-to-1 multiplexer for signal <index[4]_PWR_21_o_equal_9_o> created at line 52.
+    Found 1-bit 17-to-1 multiplexer for signal <index[4]_PWR_21_o_equal_7_o> created at line 52.
+    Found 5-bit comparator greater for signal <index[4]_PWR_21_o_LessThan_2_o> created at line 46
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <CuForMultiPlier> synthesized.
+
+Synthesizing Unit <SrForMultiplier>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForMultiplier.v".
+    Found 1-bit register for signal <first>.
+    Found 16-bit register for signal <shiftedb>.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <SrForMultiplier> synthesized.
+
+Synthesizing Unit <Add_SubForMultiplier>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForMultiplier.v".
+    Found 32-bit register for signal <r>.
+    Found 32-bit subtractor for signal <r[31]_GND_690_o_sub_5_OUT> created at line 43.
+    Found 32-bit adder for signal <r[31]_GND_690_o_add_2_OUT> created at line 39.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <Add_SubForMultiplier> synthesized.
+
+Synthesizing Unit <Divider>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Divider.v".
+    Summary:
+	no macro.
+Unit <Divider> synthesized.
+
+Synthesizing Unit <SrForDivider>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForDivider.v".
+WARNING:Xst:647 - Input <iteration> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 32-bit register for signal <shiftedD>.
+    Found 16-bit register for signal <quotient>.
+    Found 2-bit register for signal <first>.
+    Found 2-bit adder for signal <first[1]_GND_692_o_add_4_OUT> created at line 47.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <SrForDivider> synthesized.
+
+Synthesizing Unit <CuForDivider>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v".
+    Found 32-bit register for signal <r>.
+    Found 1-bit register for signal <srOraddsub>.
+    Found 2-bit register for signal <operation>.
+    Found 6-bit register for signal <iteration>.
+    Found 1-bit register for signal <validity>.
+    Found 2-bit register for signal <first>.
+    Found 2-bit adder for signal <first[1]_GND_693_o_add_5_OUT> created at line 52.
+    Found 6-bit adder for signal <iteration[5]_GND_693_o_add_11_OUT> created at line 71.
+    Found 6-bit comparator greater for signal <iteration[5]_GND_693_o_LessThan_2_o> created at line 43
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  44 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CuForDivider> synthesized.
+
+Synthesizing Unit <Add_SubForDivider>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForDivider.v".
+    Found 32-bit register for signal <rsubd>.
+    Found 2-bit register for signal <first>.
+    Found 32-bit subtractor for signal <r[31]_d[31]_sub_8_OUT> created at line 52.
+    Found 2-bit adder for signal <first[1]_GND_694_o_add_5_OUT> created at line 46.
+    Found 6-bit comparator greater for signal <iteration[5]_GND_694_o_LessThan_2_o> created at line 38
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  34 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <Add_SubForDivider> synthesized.
+
+Synthesizing Unit <aluControl>.
+    Related source file is "D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\aluControl.v".
+    Summary:
+	no macro.
+Unit <aluControl> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment C:\Xilinx\14.7\ISE_DS\ISE\.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <MIPS> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MIPS, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : MIPS.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           1
+ Number of bonded IOBs:                   0  out of    210     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 105.00 secs
+Total CPU time to Xst completion: 104.81 secs
+ 
+--> 
+
+Total memory usage is 5001792 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   39 (   0 filtered)
+Number of infos    :    7 (   0 filtered)
+

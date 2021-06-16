@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.xst" -ofn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.xst" -ofn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.xst" -ofn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.xst" -ofn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.syr" 
+xst -intstyle ise -ifn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.xst" -ofn "D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.syr" 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Divider.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644//Divider.v -module Divider -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+CuForMultiPlier instance_name (
+    .a(a), 
+    .clk(clk), 
+    .control(control), 
+    .validity(validity), 
+    .AddorSub(AddorSub), 
+    .srstart(srstart), 
+    .addsubstart(addsubstart)
+    );
+
+

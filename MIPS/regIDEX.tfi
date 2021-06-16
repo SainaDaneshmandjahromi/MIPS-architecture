@@ -1,0 +1,41 @@
+
+
+
+// Instantiate the module
+regIDEX instance_name (
+    .clk(clk), 
+    .hit(hit), 
+    .nextinst(nextinst), 
+    .regDst(regDst), 
+    .ALUSrc(ALUSrc), 
+    .memtoReg(memtoReg), 
+    .regWrite(regWrite), 
+    .memRead(memRead), 
+    .memWrite(memWrite), 
+    .branch(branch), 
+    .ALUOp(ALUOp), 
+    .opCode(opCode), 
+    .readData1(readData1), 
+    .readData2(readData2), 
+    .signExtend(signExtend), 
+    .rt(rt), 
+    .rd(rd), 
+    .nextinstOut(nextinstOut), 
+    .regDstOut(regDstOut), 
+    .ALUSrcOut(ALUSrcOut), 
+    .memtoRegOut(memtoRegOut), 
+    .regWriteOut(regWriteOut), 
+    .memReadOut(memReadOut), 
+    .memWriteOut(memWriteOut), 
+    .branchOut(branchOut), 
+    .ALUOpOut(ALUOpOut), 
+    .opCodeOut(opCodeOut), 
+    .readData1Out(readData1Out), 
+    .readData2Out(readData2Out), 
+    .signExtendOut(signExtendOut), 
+    .rtOut(rtOut), 
+    .rdOut(rdOut), 
+    .hitOut(hitOut)
+    );
+
+

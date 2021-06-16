@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+signExtend instance_name (
+    .myInput(myInput), 
+    .myOutput(myOutput)
+    );
+
+

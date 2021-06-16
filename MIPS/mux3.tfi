@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+mux3 instance_name (
+    .select(select), 
+    .myIn1(myIn1), 
+    .myIn2(myIn2), 
+    .myOut(myOut)
+    );
+
+

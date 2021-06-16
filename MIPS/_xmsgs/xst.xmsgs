@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\produceClock.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">produceClock</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\instruction_memory.v" Line 28: Signal &lt;<arg fmt="%s" index="1">mem</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\cache.v" Line 50: Signal &lt;<arg fmt="%s" index="1">address</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 145: Assignment to <arg fmt="%s" index="1">hitOutstage12</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 201: Assignment to <arg fmt="%s" index="1">opCodestage23</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 207: Assignment to <arg fmt="%s" index="1">hitOutstage23</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 35: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">16</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 47: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 53: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">r</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">16</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 54: Assignment to <arg fmt="%s" index="1">validity</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForDivider.v" Line 43: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\SrForDivider.v" Line 47: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" Line 47: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" Line 52: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\CuForDivider.v" Line 71: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForDivider.v" Line 42: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\Add_SubForDivider.v" Line 46: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v" Line 61: Assignment to <arg fmt="%s" index="1">validity</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 251: Assignment to <arg fmt="%s" index="1">hitOutstage34</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\myDataMem.v" Line 39: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v" Line 276: Assignment to <arg fmt="%s" index="1">hitOutstage45</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">117</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myproduceClk</arg>&gt; of block &lt;<arg fmt="%s" index="4">produceClock</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">122</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">And</arg>&gt; of block &lt;<arg fmt="%s" index="4">myAnd</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">129</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myFetch</arg>&gt; of block &lt;<arg fmt="%s" index="4">fetch</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">138</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myregIFID</arg>&gt; of block &lt;<arg fmt="%s" index="4">regIFID</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">148</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myDecode</arg>&gt; of block &lt;<arg fmt="%s" index="4">decode</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">162</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myControlUnit</arg>&gt; of block &lt;<arg fmt="%s" index="4">controlUnit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">174</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myregIDEX</arg>&gt; of block &lt;<arg fmt="%s" index="4">regIDEX</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">210</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myExecute</arg>&gt; of block &lt;<arg fmt="%s" index="4">Execute</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">221</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">myMux</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux3</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">228</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">regEXMEM</arg>&gt; of block &lt;<arg fmt="%s" index="4">myregEXMEM</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">254</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">DataMem</arg>&gt; of block &lt;<arg fmt="%s" index="4">myDataMem</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">263</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">regMEMWB</arg>&gt; of block &lt;<arg fmt="%s" index="4">myregMEMWB</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%d" index="2">279</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mymuxthird</arg>&gt; of block &lt;<arg fmt="%s" index="4">multiplexer_16</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">MIPS</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%s" index="2">138</arg>: Output port &lt;<arg fmt="%s" index="3">hitOut</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myregIFID</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%s" index="2">174</arg>: Output port &lt;<arg fmt="%s" index="3">opCodeOut</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myregIDEX</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%s" index="2">174</arg>: Output port &lt;<arg fmt="%s" index="3">hitOut</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myregIDEX</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%s" index="2">228</arg>: Output port &lt;<arg fmt="%s" index="3">hitOut</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">regEXMEM</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\MIPS.v</arg>&quot; line <arg fmt="%s" index="2">263</arg>: Output port &lt;<arg fmt="%s" index="3">hitOut</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">regMEMWB</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">address&lt;2:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">mem</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">instruction_memory</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">address&lt;0:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v</arg>&quot; line <arg fmt="%s" index="2">49</arg>: Output port &lt;<arg fmt="%s" index="3">validity</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myMul</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\Lessons\ArchitectureLab\9632644_Project\9632644_HW6\Project_9632644\alu.v</arg>&quot; line <arg fmt="%s" index="2">57</arg>: Output port &lt;<arg fmt="%s" index="3">validity</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">myDiv</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">iteration</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+</msg>
+
+</messages>
+

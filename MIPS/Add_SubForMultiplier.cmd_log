@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/Add_SubForMultiplier.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644//Add_SubForMultiplier.v -module Add_SubForMultiplier -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

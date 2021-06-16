@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644/myregMEMWB.tfi -lib work D:/Lessons/ArchitectureLab/9632644_HW6/Project_9632644//myregMEMWB.v -module myregMEMWB -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj Project_9632644 -o D:/Lessons/ArchitectureLab/Folder/Project_9632644/myregMEMWB.tfi -lib work D:/Lessons/ArchitectureLab/Folder/Project_9632644//myregMEMWB.v -module myregMEMWB -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

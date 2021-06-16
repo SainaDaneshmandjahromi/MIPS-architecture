@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+Execute instance_name (
+    .readData1(readData1), 
+    .readData2(readData2), 
+    .instant(instant), 
+    .aluSrc(aluSrc), 
+    .aluOp(aluOp), 
+    .aluOut(aluOut), 
+    .zero(zero)
+    );
+
+

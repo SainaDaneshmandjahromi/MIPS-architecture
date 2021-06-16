@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+SrForDivider instance_name (
+    .clk(clk), 
+    .srOraddsub(srOraddsub), 
+    .iteration(iteration), 
+    .divisor(divisor), 
+    .operation(operation), 
+    .shiftedD(shiftedD), 
+    .quotient(quotient)
+    );
+
+

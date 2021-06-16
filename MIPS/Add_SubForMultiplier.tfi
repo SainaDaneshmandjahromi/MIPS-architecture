@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Add_SubForMultiplier instance_name (
+    .AddorSub(AddorSub), 
+    .b(b), 
+    .clk(clk), 
+    .r(r)
+    );
+
+

@@ -1,0 +1,31 @@
+
+
+
+// Instantiate the module
+myregEXMEM instance_name (
+    .clk(clk), 
+    .hit(hit), 
+    .memReadIn(memReadIn), 
+    .memWriteIn(memWriteIn), 
+    .branchIn(branchIn), 
+    .regWriteIn(regWriteIn), 
+    .memtoRegIn(memtoRegIn), 
+    .branchTargetIn(branchTargetIn), 
+    .zeroIn(zeroIn), 
+    .aluResultIn(aluResultIn), 
+    .readRegTwoIn(readRegTwoIn), 
+    .writeRegIn(writeRegIn), 
+    .memReadOut(memReadOut), 
+    .memWriteOut(memWriteOut), 
+    .branchOut(branchOut), 
+    .regWriteOut(regWriteOut), 
+    .memtoRegOut(memtoRegOut), 
+    .branchTargetOut(branchTargetOut), 
+    .zeroOut(zeroOut), 
+    .aluResultOut(aluResultOut), 
+    .readRegTwoOut(readRegTwoOut), 
+    .writeRegOut(writeRegOut), 
+    .hitOut(hitOut)
+    );
+
+

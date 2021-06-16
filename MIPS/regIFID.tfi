@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+regIFID instance_name (
+    .clk(clk), 
+    .hit(hit), 
+    .instruction(instruction), 
+    .nextinstruction(nextinstruction), 
+    .instOut(instOut), 
+    .nextinstOut(nextinstOut), 
+    .hitOut(hitOut)
+    );
+
+

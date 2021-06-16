@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+produceClock instance_name (
+    .fastclk(fastclk), 
+    .slowclk(slowclk)
+    );
+
+

@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+aluControl instance_name (
+    .myFunction(myFunction), 
+    .aluOp(aluOp), 
+    .aluCnt(aluCnt)
+    );
+
+

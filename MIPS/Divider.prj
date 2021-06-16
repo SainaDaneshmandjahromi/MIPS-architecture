@@ -1,0 +1,4 @@
+verilog work "SrForDivider.v"
+verilog work "CuForDivider.v"
+verilog work "Add_SubForDivider.v"
+verilog work "Divider.v"

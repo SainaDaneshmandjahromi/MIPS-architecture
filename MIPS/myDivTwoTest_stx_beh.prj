@@ -1,0 +1,6 @@
+verilog isim_temp "SrForDivider.v"
+verilog isim_temp "CuForDivider.v"
+verilog isim_temp "Add_SubForDivider.v"
+verilog isim_temp "Divider.v"
+verilog isim_temp "myDivTwoTest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

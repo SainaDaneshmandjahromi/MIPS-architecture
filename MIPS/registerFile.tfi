@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+registerFile instance_name (
+    .clk(clk), 
+    .regWrite(regWrite), 
+    .regNum1(regNum1), 
+    .regNum2(regNum2), 
+    .regWriteNum(regWriteNum), 
+    .readData1(readData1), 
+    .readData2(readData2), 
+    .writeData(writeData)
+    );
+
+
